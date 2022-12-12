@@ -1,13 +1,46 @@
 <template>
-  
+  <v-card class="rounded-lg grey lighten-4" flat>
+    <v-card-title class="text-h6 mb-1">
+      Current Balance <v-spacer></v-spacer
+      ><v-icon color="grey darken-1">mdi-dots-horizontal</v-icon></v-card-title
+    >
+    <p class="text-h4 ml-3">
+      <v-icon x-large color="grey darken-1" class="mb-2"
+        >mdi-currency-usd</v-icon
+      >21432.23
+    </p>
+    <p2 class="text-h7 mb-6 ml-6 green--text font-weight-medium">
+      <v-icon small color="green" class="mb-1 mr-1"
+        >mdi-arrow-top-right-thin-circle-outline</v-icon
+      >12% vs last month
+    </p2>
+
+    <v-card-actions class="font-weight-normal ml-4">
+      <v-btn
+        color="deep-purple accent-2"
+        dark
+        flat
+        depressed
+        class="mb-5 mt-15"
+      >
+        Quick Invest
+      </v-btn>
+      <v-btn
+        class="deep-purple--text mb-5 mt-15 text-transform-lowercase"
+        color="white"
+        dark
+        flat
+        depressed
+      >
+        Show Report
+      </v-btn>
+    </v-card-actions>
+  </v-card>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
